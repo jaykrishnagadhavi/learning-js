@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variables Exercise</title>
-</head>
-<body>
-    <script>
         let name = "Jaykrishna";
         console.log(name);
         let coffee = 5;
@@ -18,6 +9,3 @@
         let tax = cost * 0.1;
         let totalBill = `Total Ammount = ${cost + tax}$`;
         console.log(totalBill);
-    </script>
-</body>
-</html>
