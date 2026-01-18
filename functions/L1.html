@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS (Functions)</title>
+</head>
+
+<body>
+    <button onclick="
+        let result;
+        const computerMove = pickComputerMove();
+        if (computerMove === 'Rock') {
+            result = 'Its a TIE!!'
+        } else if (computerMove === 'Paper') {
+            result = 'You Lose';
+        } else if (computerMove === 'Scissor') {
+            result = 'You Win'
+        } else {
+            console.log('WTF DID YOU DO??')
+        }
+
+        alert(`You choose Rock, the computer chooses ${computerMove}, ${result}`)
+        ">Rock</button>
+    <button onclick="
+        pickComputerMove();
+
+        let result2;
+
+        if (computerMove === 'Rock') {
+            result2 = 'You Win'
+        } else if (computerMove === 'Paper') {
+            result2 = 'Its a TIE!!';
+        } else if (computerMove === 'Scissor') {
+            result2 = 'You Lose'
+        } else {
+            console.log('WTF DID YOU DO??')
+        }
+
+        alert(`You choose Paper, the computer chooses ${computerMove}, ${result2}`)
+    ">Paper</button>
+    <button onclick="
+        pickComputerMove();
+        let result3;
+
+        if (computerMove === 'Rock') {
+            result3 = 'You lose'
+        } else if (computerMove === 'Paper') {
+            result3 = 'You Win';
+        } else if (computerMove === 'Scissor') {
+            result3 = 'Its a TIE!!'
+        } else {
+            console.log('WTF DID YOU DO??')
+        }
+
+        alert(`You choose Scissor, the computer chooses ${computerMove}, ${result3}`)
+    ">Scissor</button>
+    <script src="./L1.js"></script>
+</body>
+
+</html>
