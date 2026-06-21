@@ -1,1 +1,1 @@
-alert('This is external script alert!')
+alert('This is external script alert!');
